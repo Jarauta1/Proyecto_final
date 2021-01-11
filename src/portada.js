@@ -5,18 +5,17 @@ function Portada () {
 
     return(<div className="container-fluid">
     			<div className="row">
-					<div className="col-2 container">
-						<div className="row">
-							<div className="col-12">
-								<p>banner zapatillas</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-10 container">
+					<div className="col-2">
 						<div className="row">
 							<div className="col-12">
 
-							<div className="slider col-10">
+						<p>CALZADO</p>
+							</div>
+						</div>
+					</div>
+					<div className="col-7">
+						<div className="col-12">
+						<div className="slider">
  					<ul>
     					<li id="no-js-slider-1" className="slide">
       						<div className="movie-card">
@@ -78,17 +77,74 @@ function Portada () {
     
   					</ul>
 				</div>
-							</div>
-							<div className="col-12">
+						</div>
+						<div className="col-12">
+						<div className="slider">
+ 					<ul>
+    					<li id="no-js-slider-1" className="slide">
+      						<div className="movie-card">
+								<div className="color-overlay">
+									<div className="movie-share">
+										<a className="movie-share__icon" href="#">
+											<i className="material-icons">#</i>
+										</a>
+										<a className="movie-share__icon" href="#">
+											<i className="material-icons">x</i>
+										</a>
+										<a className="movie-share__icon" href="#">
+											<i className="material-icons">&d</i>
+										</a>
+									</div>
+									<div className="movie-content">
+										<div className="movie-header">
+											<h1 className="movie-title">Blade Runner</h1>
+											<h4 className="movie-info">(1982) Sci-Fi, Thriller</h4>
+										</div>
+										<p className="movie-desc">A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.</p>
+										<a className="btn btn-outline" href="#">Watch Trailer</a>
 
-								<p>banner peliculas</p>
+									</div>
+		
+								</div>
 							</div>
+      						<a className="prev" href="#no-js-slider-2">prev</a>
+      						<a className="next" href="#no-js-slider-2">next</a>
+    					</li>
+    					<li id="no-js-slider-2" className="slide">
+							<div className="movie-card">
+								<div className="color-overlay">
+									<div className="movie-share">
+										<a className="movie-share__icon" href="#">
+											<i className="material-icons">#</i>
+										</a>
+										<a className="movie-share__icon" href="#">
+											<i className="material-icons">x</i>
+										</a>
+										<a className="movie-share__icon" href="#">
+											<i className="material-icons">&</i>
+										</a>
+									</div>
+									<div className="movie-content">
+										<div className="movie-header">
+											<h1 className="movie-title">Segunda peli</h1>
+											<h4 className="movie-info">(1982) Sci-Fi, Thriller</h4>
+										</div>
+											<p className="movie-desc">A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.</p>
+											<a className="btn btn-outline" href="#">Watch Trailer</a>
+
+									</div>
+								</div>
+							</div>
+							<a className="prev" href="#no-js-slider-1">prev</a>
+      						<a className="next" href="#no-js-slider-1">next</a>           
+    					</li>
+    
+  					</ul>
+				</div>
 						</div>
 					</div>
-					<div className="col-2 container">
-						<div className="row">
-							<div className="col-12">
-							<div class="wrapper">
+					<div className="col-2">
+					<div class="wrapper">
 
   
 <div class="overviewInfo">
@@ -223,21 +279,10 @@ xmlns="http://www.w3.org/2000/svg"
 
 </div>
 
-							</div>
-						</div>
 					</div>
 
 			</div>
-			<div className="row">
-					<div className="col-12 container">
-						<div className="row">
-							<div className="col-12">
-								<p>banner libros</p>
-							</div>
-						</div>
-					</div>
-
-			</div>
+		
     	</div>);
 }
 
